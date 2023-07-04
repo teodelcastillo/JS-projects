@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #f8f8f8;
+  background-color: #13141a;
+
+}
+
+.app-wrap {
+	display: flex;
+  flex-direction:column;
+	
+
+  background-color: #1d1f27;
+	margin: 3%;
+	border-radius: 15px;
+	padding: 4%;		
+
+}
+
+main {
+	flex-direction: column;
+}
+
+header{
+	display: flex;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+
+}
+
+header input{
+	height: 35px;
+	width: 80vw;
+	max-width: 900px;
+	max-height: 10px;
+	min-height: 25px;
+	padding: 3%;
+	margin-bottom: 2vh;
+	background-color: #13141a;
+	color: #f8f8f8;
+	border: none;
+	border-radius: 15px;
+	
+
+}
+
+header input:focus {
+  background-color: rgba(18, 18, 18, 0.8);
+	color: #f8f8f8;
+}
+
+
+main {
+  flex: 1 1 100%;
+  padding: 25px 25px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.location .city {
+  color: #eeeeee;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.location .date {
+  color: #eeeeee;
+  font-size: 16px;
+}
+.current .temperature {
+  color: #eeeeee;
+  font-size: 102px;
+  font-weight: 900;
+  margin: 30px 0;
+
+
+}
+.current .temperature span {
+  font-weight: 200;
+}
+.current .weather {
+  color: #eeeeee;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 15px;
+  text-shadow: 0 3px rgba(0, 0, 0, 0.4);
+}
+.current .min-max {
+  color: #eeeeee;
+  font-size: 24px;
+  font-weight: 500;
+  text-shadow: 0 3px rgba(0, 0, 0, 0.4);
+}
+
